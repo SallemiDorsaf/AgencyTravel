@@ -1,0 +1,177 @@
+<div class="container" style="  margin-top: 20px;  background-color: transparent;">
+  <div class="row justify-content-around">
+    <div class="col">
+      <h1 style="  font-family: Times New Roman, Times, serif;"><a href="index.html"><i
+            class="fa fa-globe animated bounce infinite"></i>Travel</a></h1>
+    </div>
+    <div class="col-8">
+      <ul class="nav nav-tabs">
+        <li class="nav-item text-xl-left" style="text-align: justify;font-size: 20px;">
+          <a class="nav-link active" href="main">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" style="text-align: justify;font-size: 20px;color:blue">Hotel</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/hotels">In Tunisia</a>
+            <a class="dropdown-item" href="/hotels-a">Abroad</a>
+
+          </div>
+        </li>
+
+
+        <li class="nav-item" style="text-align: justify;font-size: 20px;color:blue">
+          <a class="nav-link" href="/flights">Flights</a>
+        </li>
+        <li class="nav-item" style="text-align: justify;font-size: 20px;color:blue">
+          <a class="nav-link" href="#">Offers</a>
+        </li>
+</ul>
+        <!--Modal: Login / Register Form-->
+        <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+
+              <!--Modal cascading tabs-->
+              <div class="modal-c-tabs">
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i
+                        class="fas fa-user mr-1"></i>
+                      Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i
+                        class="fas fa-user-plus mr-1"></i>
+                      Register</a>
+                  </li>
+                </ul>
+              </div>
+                <!-- Tab panels -->
+                <div class="tab-content">
+                  <!--Panel 7-->
+                  <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+                    <!--Body-->
+                    <div class="modal-body mx-3">
+                      <div class="md-form mb-5">
+                        <!-- Name -->
+                        <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4"
+                          placeholder="Name">
+                        <!-- Email -->
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4"
+                          placeholder="E-mail">
+                        <!-- Sign in button -->
+                        <button class="btn btn-info btn-block" type="submit">Log in</button>
+
+                      </div>
+
+                    </div>
+                    <!--Footer-->
+                    <div class="modal-footer">
+                      <div class="options text-center text-md-right mt-1">
+                        <p>Not a member? <a href="#" class="blue-text">Sign Up</a></p>
+                      </div>
+                      <button type="button" class="btn btn-outline-info waves-effect ml-auto"
+                        data-dismiss="modal">Close</button>
+                    </div>
+
+                  </div>
+                  <!--/.Panel 7-->
+
+                  <!--Panel 8-->
+                  <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+                    <!--Body-->
+                    <!-- Default form register -->
+                    <form class="text-center border border-light p-5">
+
+
+
+                      <div class="form-row mb-4">
+                        <div class="col">
+                          <!-- First name -->
+                          <input type="text" id="defaultRegisterFormFirstName" class="form-control"
+                            placeholder="First name">
+                        </div>
+                        <div class="col">
+                          <!-- Last name -->
+                          <input type="text" id="defaultRegisterFormLastName" class="form-control"
+                            placeholder="Last name">
+                        </div>
+                      </div>
+
+                      <!-- E-mail -->
+                      <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                      <!-- Password -->
+                      <input type="password" id="defaultRegisterFormPassword" class="form-control"
+                        placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                      <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                        At least 8 characters and 1 digit
+                      </small>
+
+                      <!-- Phone number -->
+                      <input type="text" id="defaultRegisterPhonePassword" class="form-control"
+                        placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                      <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                        Optional - for two step authentication
+                      </small>
+
+
+
+                      <!-- Sign up button -->
+                      <button class="btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+                      <!-- Social register -->
+                      <p>or sign up with:</p>
+
+                      <div class="text-center text-md-center">
+                        <!--Facebook-->
+                        <a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                        <!--Twitter-->
+                        <a class="tw-ic mr-3" role="button"><i class="fab fa-lg fa-twitter"></i></a>
+                        <!--Google +-->
+                        <a class="gplus-ic mr-3" role="button"><i class="fab fa-lg fa-google-plus-g"></i></a>
+                        <!--Linkedin-->
+                        <a class="li-ic mr-3" role="button"><i class="fab fa-lg fa-linkedin-in"></i></a>
+                        <!--Instagram-->
+                        <a class="ins-ic mr-3" role="button"><i class="fab fa-lg fa-instagram"></i></a>
+                      </div>
+
+
+
+                    </form>
+                    <!-- Default form register -->
+
+
+                    <!--Footer-->
+                    <div class="modal-footer">
+                      <div class="options text-right">
+                        <p class="pt-1">Already have an account? <a href="#" class="blue-text">Log In</a></p>
+                      </div>
+                      <button type="button" class="btn btn-outline-info waves-effect ml-auto"
+                        data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                  <!--/.Panel 8-->
+                </div>
+
+              </div>
+            </div>
+            <!--/.Content-->
+          </div>
+        </div>
+        <!--Modal: Login / Register Form-->
+        
+        <div class="text-center">
+          <a href="" class="btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">
+          <i class='fa fa-user' style='font-size:20px ; color: blue'></i></a>
+        
+      </div>
+    </div>
+  </div>
