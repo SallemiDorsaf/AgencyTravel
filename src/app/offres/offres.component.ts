@@ -13,13 +13,36 @@ export class OffresComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.interval = setInterval(() => {
+    this.fn1();
+    this.fn2();
+    this.fn3();
+  }
+  fn1() {
+    return this.interval = setInterval(() => {
       if(this.timeLeft > 0) {
         this.timeLeft--;
       } else {
         this.timeLeft = 60;
       }
-    },1000)
+    },1000) 
+  }
+  fn2() {
+    return this.interval = setInterval(() => {
+      if(this.timeLef > 0) {
+        this.timeLef--;
+      } else {
+        this.timeLef = 80;
+      }
+    },1000) 
+  }
+  fn3() {
+    return this.interval = setInterval(() => {
+      if(this.timeLe > 0) {
+        this.timeLe--;
+      } else {
+        this.timeLe = 90;
+      }
+    },1000) 
   }
 
 }
