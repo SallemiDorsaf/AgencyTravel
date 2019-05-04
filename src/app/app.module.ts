@@ -11,6 +11,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FlightsComponent } from './flights/flights.component';
 import { HotelsAComponent } from './hotels-a/hotels-a.component';
 import { ProfilComponent } from './profil/profil.component';
+import { OffresComponent } from './offres/offres.component';
 
 const routes:Routes=[
   {path:'hotels' ,  component:HotelsComponent},
@@ -33,7 +34,8 @@ const routes:Routes=[
     HotelsComponent,
     FlightsComponent,
     HotelsAComponent,
-    ProfilComponent
+    ProfilComponent,
+    OffresComponent
   ],
   imports: [
     BrowserModule,
