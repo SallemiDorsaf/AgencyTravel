@@ -12,6 +12,8 @@ import { FlightsComponent } from './flights/flights.component';
 import { HotelsAComponent } from './hotels-a/hotels-a.component';
 import { ProfilComponent } from './profil/profil.component';
 import { OffresComponent } from './offres/offres.component';
+import { ReserveComponent } from './reserve/reserve.component';
+import { ReserveonliComponent } from './reserveonli/reserveonli.component';
 
 const routes:Routes=[
   {path:'hotels' ,  component:HotelsComponent},
@@ -35,7 +37,9 @@ const routes:Routes=[
     FlightsComponent,
     HotelsAComponent,
     ProfilComponent,
-    OffresComponent
+    OffresComponent,
+    ReserveComponent,
+    ReserveonliComponent
   ],
   imports: [
     BrowserModule,

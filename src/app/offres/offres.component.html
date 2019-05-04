@@ -8,7 +8,7 @@
             <p class="alert alert-info">
                 PRIX : 86 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i>(71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i>(71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -21,7 +21,7 @@
             <p class="alert alert-info">
                 PRIX : 150 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -33,7 +33,7 @@
             <p class="alert alert-info">
                 PRIX : 1800 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -45,7 +45,7 @@
             <p class="alert alert-info">
                 PRIX : 86 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -58,7 +58,7 @@
             <p class="alert alert-info">
                 PRIX : 150 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -70,7 +70,7 @@
             <p class="alert alert-info">
                 PRIX : 1800 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -82,7 +82,7 @@
             <p class="alert alert-info">
                 PRIX : 86 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -95,7 +95,7 @@
             <p class="alert alert-info">
                 PRIX : 150 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
         </div>
     </div>
     <div class="card col-sm-3 m-1" style="width: 18rem;">
@@ -107,7 +107,24 @@
             <p class="alert alert-info">
                 PRIX : 1800 Dt
             </p>
-            <a href="#" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+            <a data-toggle="modal" data-target="#reserve" class="btn btn-success">Reservé <i class="fas fa-phone"></i> (71200100)</a>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="reserve" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Réservation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          </button>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" data-dismiss="modal" routerLink="/reserveonligne" class="btn btn-warning">Je Paye en ligne</button>
+                <button type="submit" data-dismiss="modal" routerLink="/reserve" class="btn btn-danger">Je passe à l'agence </button>
+            </div>
         </div>
     </div>
 </div>
