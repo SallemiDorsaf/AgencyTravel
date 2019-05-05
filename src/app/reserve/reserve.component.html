@@ -1,38 +1,39 @@
 <div class="lef">
-    <div class="card" style="width: 70rem;">
-        <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-address-card"></i> Entrez vos coordonnées:</h5>
-            <hr>
-            <div class="form-inline m-2">
-                <div class="form-group p-2">
-                    <label for="exampleFormControlSelect1">Civilité</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+    <form>
+        <div class="card" style="width: 70rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-address-card"></i> Entrez vos coordonnées:</h5>
+                <hr>
+                <div class="form-inline m-2">
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlSelect1">Civilité</label>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
               <option>Mr</option>
               <option>Mme</option>
               <option>Mlle</option>
             </select>
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Prenom</label>
+                        <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prenom">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Nom</label>
+                        <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+                    </div>
                 </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Prenom</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prenom">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Nom</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
-                </div>
-            </div>
-            <div class="form-inline m-2 ">
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Portable</label>
-                    <input type="number" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlSelect2">Gouvernorat</label>
-                    <select class="form-control" id="exampleFormControlSelect2">
+                <div class="form-inline m-2 ">
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Portable</label>
+                        <input required type="number" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlSelect2">Gouvernorat</label>
+                        <select class="form-control" id="exampleFormControlSelect2" required>
                 <option value="Ariana">Ariana</option>
                 <option value="Beja">Beja</option>
                 <option value="Ben Arous">Ben Arous</option>
@@ -58,15 +59,74 @@
                 <option value="Tunis">Tunis</option>
                 <option value="Zaghouan">Zaghouan</option>
             </select>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card mt-5" style="width: 70rem;">
-        <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-compass"></i> Sélectionnez l'agence la plus proche de chez vous:</h5>
-            <hr>
-
+        <div class="card mt-5" style="width: 70rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-compass"></i> Sélectionnez l'agence la plus proche de chez vous:</h5>
+                <hr>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"><i class="fas fa-map-marker-alt"></i> Agence Tunis</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                      <option selected>Choose...</option>
+                      <option value="1">
+                            Agence Tunis Centre Urbain Nord  </option>
+                      <option value="2">
+                            Agence Tunis Centre Ville</option>
+                      <option value="3">Agence Lac1</option>
+                      <option value="4">Agence El Manar 2</option>
+                      <option value="5">Agence El Mourouj 1</option>
+                    </select>
+                </div>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"> <i class="fas fa-map-marker-alt"></i> Agence Bizerte</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                          <option selected>Choose...</option>
+                          <option value="1">
+                                Agence Bizerte</option>
+                        </select>
+                </div>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"> <i class="fas fa-map-marker-alt"></i> Agence Hammamet</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                              <option selected>Choose...</option>
+                              <option value="1">
+                                    Agence Hammamet</option>
+                            </select>
+                </div>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"> <i class="fas fa-map-marker-alt"></i> Agence Sousse</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                  <option selected>Choose...</option>
+                                  <option value="1">
+                                        Agence Sousse</option>
+                                        <option value="1">
+                                                Agence Sousse Sahloul </option>
+                                </select>
+                </div>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"> <i class="fas fa-map-marker-alt"></i> Agence Sfax</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                      <option selected>Choose...</option>
+                                      <option value="1">
+                                            Agence Mahsouna Sfax</option>
+                                            <option value="1">
+                                                    Agence Nassria- Sfax</option>
+                                    </select>
+                </div>
+                <div class="col-auto my-1">
+                    <label class="mr-sm-2" for="inlineFormCustomSelect"> <i class="fas fa-map-marker-alt"></i> Agence Gabes</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                          <option selected>Choose...</option>
+                                          <option value="1">Agence Gabes</option>
+                                        </select>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="form-group text-right container">
+            <button class="btn btn-success" type="submit">Continuez</button>
+        </div>
+    </form>
 </div>

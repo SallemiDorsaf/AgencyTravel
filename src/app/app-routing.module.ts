@@ -7,7 +7,8 @@ import { ReserveonliComponent } from './reserveonli/reserveonli.component';
 const routes: Routes = [
   {path:'offre',component:OffresComponent},
   {path:'reserve',component:ReserveComponent},
-  {path:'reserveonligne',component:ReserveonliComponent}
+  {path:'reserveonligne',component:ReserveonliComponent},
+  {path:'',redirectTo:'/main',pathMatch:'full'},
 ];
 
 @NgModule({

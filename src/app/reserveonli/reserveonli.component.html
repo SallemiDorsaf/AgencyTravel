@@ -1,38 +1,39 @@
 <div class="lef">
-    <div class="card" style="width: 70rem;">
-        <div class="card-body">
-            <h5 class="card-title"><i class="fas fa-address-card"></i> Entrez vos coordonnées:</h5>
-            <hr>
-            <div class="form-inline m-2">
-                <div class="form-group p-2">
-                    <label for="exampleFormControlSelect1">Civilité</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+    <form>
+        <div class="card" style="width: 70rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-address-card"></i> Entrez vos coordonnées:</h5>
+                <hr>
+                <div class="form-inline m-2">
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlSelect1">Civilité</label>
+                        <select class="form-control" id="exampleFormControlSelect1" required>
               <option>Mr</option>
               <option>Mme</option>
               <option>Mlle</option>
             </select>
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Prenom</label>
+                        <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prenom">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Nom</label>
+                        <input required type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+                    </div>
                 </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Prenom</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prenom">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Nom</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
-                </div>
-            </div>
-            <div class="form-inline m-2 ">
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlInput1">Portable</label>
-                    <input type="number" class="form-control" id="exampleFormControlInput1">
-                </div>
-                <div class="form-group p-2">
-                    <label for="exampleFormControlSelect2">Gouvernorat</label>
-                    <select class="form-control" id="exampleFormControlSelect2">
+                <div class="form-inline m-2 ">
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input required type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlInput1">Portable</label>
+                        <input required type="number" class="form-control" id="exampleFormControlInput1">
+                    </div>
+                    <div class="form-group p-2">
+                        <label for="exampleFormControlSelect2">Gouvernorat</label>
+                        <select class="form-control" id="exampleFormControlSelect2" required>
                 <option value="Ariana">Ariana</option>
                 <option value="Beja">Beja</option>
                 <option value="Ben Arous">Ben Arous</option>
@@ -58,38 +59,42 @@
                 <option value="Tunis">Tunis</option>
                 <option value="Zaghouan">Zaghouan</option>
             </select>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="card mt-5" style="width: 70rem;">
-        <div class="card-body">
-            <h5 class="card-title"><i class="fab fa-amazon-pay"></i> Choisissez le moyen de paiement:</h5>
-            <hr>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <img src="https://tn.tunisiebooking.com/theme/images/pay_carte_cord_2.jpg" class="img-thumbnail">
-                <label class="form-check-label" for="exampleRadios1">
+        <div class="card mt-5" style="width: 70rem;">
+            <div class="card-body">
+                <h5 class="card-title"><i class="fab fa-amazon-pay"></i> Choisissez le moyen de paiement:</h5>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <img src="https://tn.tunisiebooking.com/theme/images/pay_carte_cord_2.jpg" class="img-thumbnail">
+                    <label class="form-check-label" for="exampleRadios1">
                     Carte CIB/VISA/MasterCard
                 </label>
-            </div>
-            <hr>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <img src="https://tn.tunisiebooking.com/theme/images/edinars_cord_2.jpg" class="img-thumbnail">
-                <label class="form-check-label" for="exampleRadios1">
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" checked>
+                    <img src="https://tn.tunisiebooking.com/theme/images/edinars_cord_2.jpg" class="img-thumbnail">
+                    <label class="form-check-label" for="exampleRadios1">
                     E-dinar Smart / Universel
                   </label>
-            </div>
-            <hr>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <img src="https://tn.tunisiebooking.com/theme/images/visa_cord_2.jpg" class="img-thumbnail">
-                <label class="form-check-label" for="exampleRadios1">
+                </div>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option3" checked>
+                    <img src="https://tn.tunisiebooking.com/theme/images/visa_cord_2.jpg" class="img-thumbnail">
+                    <label class="form-check-label" for="exampleRadios1">
                     Visa electron postal
                     </label>
-            </div>
+                </div>
 
+            </div>
         </div>
-    </div>
+        <div class="form-group text-right container">
+            <button class="btn btn-cyan" type="submit"> Continuez </button>
+        </div>
+    </form>
 </div>
